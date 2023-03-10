@@ -31,14 +31,14 @@ Your app is ready to be deployed!
 
 Add static folder to your web page and link the resources in your page.
 
-<head>
-...
-<script defer="defer" src="/static/js/main.735482fe.js"></script>
-<link href="/static/css/main.073c9b0a.css" rel="stylesheet">
-...
-</head>
+    <head>
+    ...
+    <script defer="defer" src="/static/js/main.735482fe.js"></script>
+    <link href="/static/css/main.073c9b0a.css" rel="stylesheet">
+    ...
+    </head>
 
 Add div (currently named "root") to the body tag of the html.
 
-<div id="root"></div>
+    <div id="root"></div>
 
