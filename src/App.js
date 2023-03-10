@@ -17,6 +17,10 @@ class App extends Component {
 
 class Quote extends Component {
     render() {
+        return this.getQuote();
+    }
+
+    getQuote() {
         const dayOfMonth = new Date().getDate();
         const i = dayOfMonth % this.props.quotes.length;
         return "The Quote of the Day is " + this.props.quotes[i];
